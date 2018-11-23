@@ -1,0 +1,128 @@
+body{
+	font-family:'Titillium Web', sans-serif;
+	color:#000;
+	padding: 0;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+ul,li {
+	padding:0;
+	margin:0;
+	display:block;  	
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	
+}
+container{
+	widows: 1170;
+	margin:0;
+
+}
+.header{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  height: 100vh;
+  padding-left: 10vh
+	}
+.text-colom{
+width: 40%;
+}
+.img-colom{
+width: 60%;
+background:url('../img/git.jpg') no-repeat left top;
+}
+.tag{
+   font-size: 18px;
+   color: #7474;
+   padding-top: 10vh;
+   
+}
+.offer{
+font-size: 60px;
+font-weight: 900;
+margin-top: 10vh;
+}
+.offer:after{
+	display: block;
+	content:'';
+	width: 103px;
+	height: 7px;
+	background: #000;
+	margin-left: -3vh;
+	margin-top:2vh;
+}
+.offer span{
+font-size: 30px;
+color: #747474;
+display: block;
+}
+.intro{
+	font-size: 15px;
+	line-height:1.6em;
+	margin-left: 35px;
+	width:80%;
+	margin-top: 4vh;
+}
+.btm{
+	font-size:18px;
+	width: 244px;
+	bottom: 2px solid #000;
+	padding: 18px 0;
+	background: #fff;
+	cursor: pointer;
+	letter-spacing: 0.2em;
+	margin-left: 35px;
+	margin-top: 4vh;
+	transition:  all 0.5s ease;
+}
+.btm:hover{
+	  background: #000;
+	  color: #fff;
+}
+.trigger{
+	background: #000;
+	color: #fff;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.trigers-iten{
+	text-align: center;
+	padding: 0 20px ;
+}
+.trigger-letter{
+	font-size: 66px;
+	font-weight: 900;
+}
+.trigger-title{
+    font-size: 23px;
+	font-weight: 900;
+	letter-spacing: 0.1em;
+}
+.trigger-text{
+
+}
+{
+color: #000;
+font-size: ;
+font-weight: ;
+bottom: 2px solid #000;
+text-align: center;
+display: flex;
+width: 244px;
+transition:  all 0.5s ease;
+display: block;
+letter-spacing: 0.2em;
+width:80%;
+}
